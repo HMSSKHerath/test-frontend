@@ -1,0 +1,12 @@
+.productCard
+{
+    border: 1px solid #ccc;
+    width: 400px;
+    height: 500px;
+}
+
+.productImage
+{
+    width: 200px;
+    height: 200px;
+}
