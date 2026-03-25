@@ -7,12 +7,19 @@ function App() {
 
   return (
     <>
-      <h1>Sasidu</h1>
-      <ProductCard name="Apple Ipad" price="$399.99" image="https://d2bschjhk4kxui.cloudfront.net/assets/images/product/69a6b033c3db51772531763.webp"/>
-      <ProductCard name="Samsung Galaxy" price="$299.99" image="https://img.drz.lazcdn.com/static/lk/p/ce5349923102af31de5e2d408588c436.jpg"/>
+      <div className='h-[700px] w-[700px] border-[5px] flex flex-col justify-center items-center'>
+        <div className='h-[200px] w-[400px] bg-blue-600 flex justify-center items-center relative'>
+          <h1>Your Time Has Over.</h1>
+          <button className='h-[50px] w-[50px] bg-red-700 text-[30px] absolute top-0 right-0'>X</button>
+          <button className='bg-green-600 text-white h-[50px] w-[100px] fixed bottom-[10px] right-[10px]'>Whatsapp</button>
+        </div>
+      </div>
     </>
   )
 }
 
 export default App
    
+
+
+
