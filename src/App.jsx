@@ -11,7 +11,11 @@ function App() {
         <div className='h-50 w-100 bg-blue-600 flex justify-center items-center relative'>
           <h1>Your Time Has Over.</h1>
           <button className='h-12.5 w-12.5 bg-red-700 text-[30px] absolute top-0 right-0'>X</button>
-          <button className='bg-green-600 text-white h-12.5 w-25 fixed bottom-2.5 right-2.5'>Whatsapp</button>
+          <button className='bg-green-600 text-white p-3.75  fixed bottom-2.5 right-2.5'>Whatsapp</button>
+        </div>
+
+        <div className='bg-pink-600 h-50 w-100 m-2.5'> 
+          <div className='h-18.75 w-18.75 bg-yellow-500 m-5 flex justify-center items-center'>Sasidu</div>
         </div>
       </div>
     </>
