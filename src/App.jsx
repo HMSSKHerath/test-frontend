@@ -1,29 +1,25 @@
 import './App.css'
-import ProductCard from './components/productCard'
+import { BrowserRouter,Routes,Route} from 'react-router-dom'
 
 function App() {
 
-  console.log("Product Card Is Displayed");
-
   return (
-    <>
-      <div className='h-175 w-175 border-[5px] flex flex-col justify-center items-center'>
-        <div className='h-50 w-100 bg-blue-600 flex justify-center items-center relative'>
-          <h1>Your Time Has Over.</h1>
-          <button className='h-12.5 w-12.5 bg-red-700 text-[30px] absolute top-0 right-0'>X</button>
-          <button className='bg-green-600 text-white p-3.75  fixed bottom-2.5 right-2.5'>Whatsapp</button>
-        </div>
-
-        <div className='bg-pink-600 h-50 w-100 m-2.5'> 
-          <div className='h-18.75 w-18.75 bg-yellow-500 m-5 flex justify-center items-center'>Sasidu</div>
-        </div>
+    <BrowserRouter>
+      <div className='w-full h-screen bg-red-600'> 
+        <Routes>
+          <Route path='/' element={<h1>Home Page</h1>} />
+          <Route path='/about' element={<h1>About Page</h1>} />
+          <Route path='/contact' element={<h1>Contact Page</h1>} />
+          <Route path='/login' element={<h1>Login Page</h1>} />
+          <Route path='/register' element={<h1>Register Page</h1>} />
+          <Route path='/admin' element={<h1>Admin Page</h1>} />
+        </Routes>
       </div>
-    </>
+    </BrowserRouter>
   )
 }
 
 export default App
    
-
 
 
