@@ -8,7 +8,7 @@ export default function Header()
 
                 <div className="h-full w-full flex items-center justify-center gap-[20px] text-lg">
                     <a href="/">Home</a>
-                    <a href="/products">Products</a>
+                    <a href="/product">Products</a>
                     <a href="/about">About</a>
                     <a href="/contact">Contact</a>
                 </div>
