@@ -1,5 +1,6 @@
 import './App.css'
 import { BrowserRouter,Routes,Route} from 'react-router-dom'
+import AdminPage from './components/adminPage'
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
           <Route path='/contact' element={<h1>Contact Page</h1>} />
           <Route path='/login' element={<h1>Login Page</h1>} />
           <Route path='/register' element={<h1>Register Page</h1>} />
-          <Route path='/admin' element={<h1>Admin Page</h1>} />
+          <Route path='/admin' element={<AdminPage />} />
         </Routes>
       </div>
     </BrowserRouter>
