@@ -8,7 +8,7 @@ export default function TestPage()
     return(
         <div className="w-full h-full flex items-center justify-center">
             <div className="w-[500px] h-[500px] bg-pink-400  text-white flex flex-col items-center justify-center gap-[30px]">
-                <div className="flex items-center justify-center gap-[40px]">
+                <div className="flex items-center justify-center gap-[40px] text-[50px]">
                     <button className="w-[100px] h-[100px] bg-red-600 rounded-lg" onClick={
                         ()=>{
                             console.log("Decreasing.....");
