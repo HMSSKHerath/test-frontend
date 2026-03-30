@@ -8,7 +8,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className='w-full h-screen bg-accent'> 
+      <div className='w-full h-screen'> 
         <Routes>
           <Route path='/*' element={<HomePage />} />
           <Route path='/admin/*' element={<AdminPage />} />
